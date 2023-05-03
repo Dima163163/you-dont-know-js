@@ -46,6 +46,7 @@ console.log(book5List);
 
 book5List[2].before(book5List[9]);
 book5List[4].after(book5List[2]);
+book5List[7].after(book5List[5]);
 
 //В шестой книге добавить глау №8
 const book6 = bookElems[2];
